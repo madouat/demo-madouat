@@ -1,12 +1,12 @@
-package com.madouat.test;
+package com.madouat.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoMadouatApplication {
+public class Application {
 
   public static void main(String[] args) {
-    SpringApplication.run(DemoMadouatApplication.class, args);
+    SpringApplication.run(Application.class, args);
   }
 }
