@@ -2,9 +2,8 @@ package com.madouat.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
-@EnableZuulProxy
+// @EnableZuulProxy
 @SpringBootApplication
 // @EnableAdminServer
 public class Application {
