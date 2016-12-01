@@ -13,5 +13,10 @@ public class GreetingController {
     return "greeting";
   }
 
+  @RequestMapping(value = "/hello", method = RequestMethod.GET)
+  public String helloo() {
+    return "Helloo madouat";
+  }
+
 
 }

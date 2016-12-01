@@ -6,7 +6,6 @@
 	<groupId>com.madouat.test</groupId>
 	<artifactId>demo-madouat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 
 	<name>demo-madouat</name>
 	<description>Demo project for Spring Boot</description>
