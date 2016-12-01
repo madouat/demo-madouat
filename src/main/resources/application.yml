@@ -1,10 +1,11 @@
 server:
   port: 8080
+
 zuul:
   routes:
     fiche:
-      path: /api/fiche/unite-physiques/**
+      path: /madouat/api/fiche/unite-physiques/**
       url: http://localhost:8090/api/fiche-descriptive/unite-physiques
     dispo:
-      path: /api/dispo/**
+      path: /madouat/api/dispo/**
       url: https://darwin-dev1.intra.sepaq.com/dispo-connector/api/disponibilite/
