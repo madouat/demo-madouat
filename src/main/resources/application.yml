@@ -1,5 +1,14 @@
 server:
   port: 8080
+  
+spring:
+  application:
+    name: demo
+
+management:
+  port: 8080
+  context-path: /monitoring
+      
 zuul:
   routes:
     fiche:
